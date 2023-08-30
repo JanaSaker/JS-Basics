@@ -7,9 +7,9 @@ validateButton.addEventListener("click", function() {
     var secondNumber = parseFloat(secondNumberInput.value);
 
     if (!isNaN(firstNumber) && !isNaN(secondNumber)) {
-        var result = firstNumber * secondNumber;
+        var result = firstNumber % secondNumber;
 
-        alert("The result of multiplying " + firstNumber + " and " + secondNumber + " is: " + result);
+        alert("The remainder of " + firstNumber + " and " + secondNumber + " is: " + result);
     } else {
         alert("Please enter valid numbers.");
     }

@@ -12,6 +12,7 @@ b.forEach(btn=>{
         btn.addEventListener("click",(event)=>{
             event.preventDefault();
             div.style.display="none";
+        
         })
         
     }

@@ -3,12 +3,13 @@
 <head>
   <meta charset="utf-8">
   <title>Step 3</title>
+
 </head>
 <body>
   <form>
-    <link rel="stylesheet" href="step3.js">
-    <label for="name">Your name  : </label><input type="text" name="name" value="" id="name" onkeyup="change()"/>
-    <div id="outputDiv">Text will appear here</div>
+    <label for="name">Your name  : </label><input type="text" onblur="myFunction()" name="name" value="" id="name"/>
   </form>
+  <div id="output"></div>
+  <script src="step3.js"></script>
 </body>
 </html>

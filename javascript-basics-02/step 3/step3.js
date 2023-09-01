@@ -1,5 +1,5 @@
-const outputDiv = document.querySelector('#outputDiv');
-const textInput = document.querySelector('#name');
-textInput.addEventListener('input', function() {
-       outputDiv.textContent = textInput.value;
-         });
+let div=document.querySelector("#output");
+let input=document.querySelector("#name");
+input.addEventListener("keyup",()=>{
+  div.innerHTML=input.value;
+})
